@@ -10,20 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Setup dummy dependency folder
-        run: |
+      - run: |
           mkdir -p dependencies
           echo "dependency-file" > dependencies/file.txt
 
-      - name: Cache dependencies
-        id: cache-step
+      - id: cache-step
         uses: actions/cache@v4
         with:
           path: dependencies
           key: cache-3a5718a
 
       - name: prime-cache-3a5718a
-        run: echo "Cache hit? ${{ steps.cache-step.outputs.cache-hit }}"
+        run: echo ${{ steps.cache-step.outputs.cache-hit }}
