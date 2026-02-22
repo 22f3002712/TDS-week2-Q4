@@ -4,35 +4,175 @@
     "version": "1196a162"
   },
   "products": [
-    { "id": 1, "name": "Football Pro", "category": "sports", "price": 199.99, "stock": 120, "rating": 4.5 },
-    { "id": 2, "name": "Tennis Racket X", "category": "sports", "price": 349.99, "stock": 58, "rating": 4.7 },
-
-    { "id": 3, "name": "Laptop Air 14", "category": "electronics", "price": 899.99, "stock": 25, "rating": 4.6 },
-    { "id": 4, "name": "Wireless Mouse", "category": "electronics", "price": 29.99, "stock": 200, "rating": 4.3 },
-    { "id": 5, "name": "Mechanical Keyboard", "category": "electronics", "price": 79.99, "stock": 150, "rating": 4.4 },
-
-    { "id": 6, "name": "Denim Jacket", "category": "fashion", "price": 59.99, "stock": 90, "rating": 4.1 },
-    { "id": 7, "name": "Running Shoes", "category": "fashion", "price": 89.99, "stock": 120, "rating": 4.5 },
-    { "id": 8, "name": "Leather Wallet", "category": "fashion", "price": 39.99, "stock": 75, "rating": 4.2 },
-
-    { "id": 9, "name": "Blender 500W", "category": "home", "price": 49.99, "stock": 60, "rating": 4.0 },
-    { "id": 10, "name": "Vacuum Cleaner", "category": "home", "price": 129.99, "stock": 40, "rating": 4.3 },
-    { "id": 11, "name": "Coffee Maker", "category": "home", "price": 89.99, "stock": 55, "rating": 4.4 },
-
-    { "id": 12, "name": "Office Chair", "category": "furniture", "price": 149.99, "stock": 30, "rating": 4.2 },
-    { "id": 13, "name": "Standing Desk", "category": "furniture", "price": 299.99, "stock": 20, "rating": 4.6 },
-
-    { "id": 14, "name": "Smart Watch", "category": "electronics", "price": 199.99, "stock": 85, "rating": 4.5 },
-    { "id": 15, "name": "Bluetooth Speaker", "category": "electronics", "price": 59.99, "stock": 110, "rating": 4.3 },
-
-    { "id": 16, "name": "Yoga Mat", "category": "sports", "price": 24.99, "stock": 200, "rating": 4.4 },
-    { "id": 17, "name": "Dumbbell Set", "category": "sports", "price": 499.99, "stock": 20, "rating": 4.8 },
-
-    { "id": 18, "name": "Backpack Travel", "category": "fashion", "price": 69.99, "stock": 60, "rating": 4.3 },
-    { "id": 19, "name": "Table Lamp", "category": "home", "price": 34.99, "stock": 75, "rating": 4.1 },
-    { "id": 20, "name": "Monitor 27\"", "category": "electronics", "price": 229.99, "stock": 35, "rating": 4.6 },
-    { "id": 21, "name": "Gaming Headset", "category": "electronics", "price": 79.99, "stock": 95, "rating": 4.4 }
-  ],
+  {
+    "id": "prod-1196a162-001",
+    "name": "Standard Item 1",
+    "category": "sports",
+    "price": 367.49,
+    "stock": 90,
+    "rating": 2.3
+  },
+  {
+    "id": "prod-1196a162-002",
+    "name": "Basic Item 2",
+    "category": "clothing",
+    "price": 45.31,
+    "stock": 125,
+    "rating": 1.5
+  },
+  {
+    "id": "prod-1196a162-003",
+    "name": "Premium Item 3",
+    "category": "clothing",
+    "price": 206.89,
+    "stock": 187,
+    "rating": 2.5
+  },
+  {
+    "id": "prod-1196a162-004",
+    "name": "Elite Item 4",
+    "category": "books",
+    "price": 222.41,
+    "stock": 138,
+    "rating": 1.5
+  },
+  {
+    "id": "prod-1196a162-005",
+    "name": "Elite Item 5",
+    "category": "clothing",
+    "price": 293.59,
+    "stock": 15,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-1196a162-006",
+    "name": "Pro Item 6",
+    "category": "sports",
+    "price": 307.72,
+    "stock": 36,
+    "rating": 1.6
+  },
+  {
+    "id": "prod-1196a162-007",
+    "name": "Pro Item 7",
+    "category": "clothing",
+    "price": 368.45,
+    "stock": 83,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-1196a162-008",
+    "name": "Premium Item 8",
+    "category": "home",
+    "price": 190.19,
+    "stock": 181,
+    "rating": 4.3
+  },
+  {
+    "id": "prod-1196a162-009",
+    "name": "Standard Item 9",
+    "category": "books",
+    "price": 69.76,
+    "stock": 180,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-1196a162-010",
+    "name": "Standard Item 10",
+    "category": "clothing",
+    "price": 478.35,
+    "stock": 30,
+    "rating": 2.2
+  },
+  {
+    "id": "prod-1196a162-011",
+    "name": "Standard Item 11",
+    "category": "electronics",
+    "price": 458.92,
+    "stock": 6,
+    "rating": 2
+  },
+  {
+    "id": "prod-1196a162-012",
+    "name": "Basic Item 12",
+    "category": "clothing",
+    "price": 442.02,
+    "stock": 49,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-1196a162-013",
+    "name": "Pro Item 13",
+    "category": "home",
+    "price": 480.01,
+    "stock": 64,
+    "rating": 2.4
+  },
+  {
+    "id": "prod-1196a162-014",
+    "name": "Standard Item 14",
+    "category": "home",
+    "price": 215.51,
+    "stock": 106,
+    "rating": 1.5
+  },
+  {
+    "id": "prod-1196a162-015",
+    "name": "Premium Item 15",
+    "category": "clothing",
+    "price": 151.42,
+    "stock": 107,
+    "rating": 2
+  },
+  {
+    "id": "prod-1196a162-016",
+    "name": "Pro Item 16",
+    "category": "books",
+    "price": 54.13,
+    "stock": 35,
+    "rating": 3.1
+  },
+  {
+    "id": "prod-1196a162-017",
+    "name": "Standard Item 17",
+    "category": "electronics",
+    "price": 319.18,
+    "stock": 146,
+    "rating": 2.8
+  },
+  {
+    "id": "prod-1196a162-018",
+    "name": "Basic Item 18",
+    "category": "electronics",
+    "price": 55.92,
+    "stock": 198,
+    "rating": 3.3
+  },
+  {
+    "id": "prod-1196a162-019",
+    "name": "Basic Item 19",
+    "category": "home",
+    "price": 260.84,
+    "stock": 33,
+    "rating": 3.9
+  },
+  {
+    "id": "prod-1196a162-020",
+    "name": "Basic Item 20",
+    "category": "clothing",
+    "price": 447.33,
+    "stock": 46,
+    "rating": 4.4
+  },
+  {
+    "id": "prod-1196a162-021",
+    "name": "Basic Item 21",
+    "category": "books",
+    "price": 45.11,
+    "stock": 189,
+    "rating": 4.6
+  }
+],
   "aggregations": {
     "sports": {
       "count": 2,
@@ -40,3 +180,4 @@
     }
   }
 }
+
